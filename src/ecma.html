@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecma script</title>
+</head>
+<body>
+    <script>
+        class Car {
+  constructor(name) {
+    this.brand = name;
+  }
+}
+
+const mycar = new Car("you have a "+"Ford");
+
+document.write(mycar.brand);
+    </script>
+    <script>
+        class Color {
+            constructor(colorname){
+                this.color = colorname;
+            }
+        }
+        const mycolor = new Color("and the color is "+"yellow");
+        document.write(mycolor.color)
+    </script>
+    <br>
+    <script>
+        hello = ()=> {
+            document.write("hello")
+        }
+        const words = hello();
+        // alert(words)
+    </script>
+</body>
+</html>
